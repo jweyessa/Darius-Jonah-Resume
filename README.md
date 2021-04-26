@@ -4,9 +4,6 @@
 > called "Darius" that you can play with. 
 > Commit to master branch after testing and agreeing on code.
 
+![Step bros](https://user-images.githubusercontent.com/82464993/116100889-34562a00-a662-11eb-94c5-002fc7ab77d8.JPG)
 
-
-![Dover Nerds](https://cdn.shopify.com/s/files/1/2602/5788/products/DAKZEKESTEPBROTHERSNAVY_e02546b3-b3a9-4f96-9fd1-99200d78a441_2048x2048.jpg?v=1599141776)
-
-![Uploading image.png…]()
 
