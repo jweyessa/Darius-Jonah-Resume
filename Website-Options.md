@@ -6,3 +6,7 @@
 >
     a. What do you think our website name should be?
 ![Image 1](https://user-images.githubusercontent.com/82464993/116099605-fb698580-a660-11eb-8cbd-cfd0d4410f61.JPG)
+
+
+**OPTION 2**
+![Option 2](https://user-images.githubusercontent.com/82464993/116104750-8cdaf680-a665-11eb-9611-96b4c64d8d6a.JPG)
