@@ -6,27 +6,20 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-<<<<<<< HEAD
   padding-top: 0px;
-=======
-  padding-top: 20px;
->>>>>>> Master
 }
 
 /* Control the left side */
 .left {
   left: 0;
-<<<<<<< HEAD
   overflow: hidden;/*hides scrollbar from left side of page*/
-=======
-  background-color: white;
->>>>>>> Master
+
+
 }
 
 /* Control the right side */
 .right {
   right: 0;
-<<<<<<< HEAD
   overflow: hidden; /*hides scrollbar from  right side of page*/
 }
 
@@ -41,8 +34,6 @@ img { /* Making sure we take up full half on each side */
   top: 5%;
   left: 23%;
   transform: translate(-50%, -50%);	
-=======
-  background-color: Gray;
 }
 
 /* If you want the content centered horizontally and vertically */
@@ -58,5 +49,4 @@ img { /* Making sure we take up full half on each side */
 .centered img {
   width: 150px;
   border-radius: 50%;
->>>>>>> Master
 }
