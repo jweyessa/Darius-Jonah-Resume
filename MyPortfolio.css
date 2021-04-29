@@ -13,8 +13,6 @@
 .left {
   left: 0;
   overflow: hidden;/*hides scrollbar from left side of page*/
-
-
 }
 
 /* Control the right side */
@@ -49,4 +47,19 @@ img { /* Making sure we take up full half on each side */
 .centered img {
   width: 150px;
   border-radius: 50%;
+}
+
+/* Inserting Social Media Links and images on left*/
+.socialMedia {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  transform: translate(-50%, -50%);	
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+/*Making Images Circular*/
+.circularImage {
+	border-radius: 50%;
 }
