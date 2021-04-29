@@ -6,32 +6,30 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 /* Control the left side */
 .left {
   left: 0;
-  background-color: white;
+  overflow: hidden;/*hides scrollbar from left side of page*/
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: Gray;
+  overflow: hidden; /*hides scrollbar from  right side of page*/
 }
 
-/* If you want the content centered horizontally and vertically */
-.centered {
+img { /* Making sure we take up full half on each side */
+	height: 100%;
+	width: 100%;	
+}
+
+/* Adding Text Over Top of Image*/
+.topCenterText {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
+  top: 5%;
+  left: 23%;
+  transform: translate(-50%, -50%);	
 }
