@@ -6,13 +6,8 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 0px;
-}
-
-/* Control the left side */
-.left {
-  left: 0;
-  overflow: hidden;/*hides scrollbar from left side of page*/
+  padding-top: 0px; 
+  
 }
 
 /* Control the right side */
@@ -21,9 +16,16 @@
   overflow: hidden; /*hides scrollbar from  right side of page*/
 }
 
+/* Control the left side Put slide deck deck of social media links here??*/
+.left {
+  left: 0;
+  overflow: hidden;/*hides scrollbar from left side of page*/
+}
+
 img { /* Making sure we take up full half on each side */
 	height: 100%;
 	width: 100%;	
+	vertical-align: middle;
 }
 
 /* Adding Text Over Top of Image*/
@@ -31,35 +33,31 @@ img { /* Making sure we take up full half on each side */
   position: absolute;
   top: 5%;
   left: 23%;
-  transform: translate(-50%, -50%);	
+  transform: translate(-77%, -50%);	
 }
-
-/* If you want the content centered horizontally and vertically */
-.centered {
+.topCenterText1 {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
+  top: 5%;
+  left: 23%;
+  transform: translate(270%, -50%);	
 }
 
 /* Inserting Social Media Links and images on left*/
 .socialMedia {
-  position: absolute;
+  position: fixed;
   top: 20%;
   left: 7%;
   transform: translate(-50%, -50%);	
   width: 50px;
   height: 50px;
-  border-radius: 50%;
 }
+
 /*Making Images Circular*/
 .circularImage {
 	border-radius: 50%;
 }
+
+
+
+
+
